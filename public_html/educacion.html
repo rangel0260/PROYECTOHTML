@@ -6,11 +6,79 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Evaluacion Final</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Prueba final del modulo de html">
     </head>
     <body>
-        <div>TODO write content</div>
+        <header>
+        <img src="img/LOGO.svg"/>
+            <h1>Hoja de Vida</h1>
+            <h2>Rangel Raul Alvarado</h2>
+            <h3>
+            Nacionalidad: Panameño<br>
+            Fecha de nacimiento:  6 de febrero de 1960
+            </h3>
+        </header>
+        
+       <nav>
+           <a href="index.html">Inicio</a> |
+           <a href="educacion.html">Educación</a> |
+           <a href="experiencia.html">Experiencia</a>
+       </nav>
+        <h2>
+            <strong>Educacion</strong>
+        </h2>   
+        <br>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Institución</th>
+                    <th>Lugar</th>
+                    <th>¿Culminó?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1977</td>
+                    <td>Colegio Felix Olivares Contreras</td>
+                    <td>Chiriquí</td>
+                    <td>Si</td>
+                </tr>
+                <tr>
+                    <td>1984</td>
+                    <td>Universidad Tecnologica de Panamá</td>
+                    <td>Panamá</td>
+                    <td>Si</td>
+                </tr>
+            </tbody>
+        </table>
+
+            <h3>
+                 Agregar Estudios
+            </h3>
+                <form autocomplete="on" name="Formulario de estudios">
+                <select name="Ano">
+                      <option value="1">2016</option>
+                      <option value="2">2017</option>
+                      <option value="3">2018</option>
+                      <option value="4">2019</option>
+                </select><br>
+                <label for="Instituto">Institución</label>
+                <input type="text" name="Instituto" id="Instituto" required><br>
+                <label for="Lugar">Lugar</label>
+                <input type="text" name="Lugar" id="Lugar" required><br><br>
+                <input type="submit" value="Registrar" ><br>
+                </form>
+    <footer>
+        <h3>
+            Email: rangel@haristmo.net<br>
+            Teléfono: (507)66789810<br>
+            Dirección: Panamá, Rep. de Panamá, Puertas del Este.
+        </h3>
+    </footer>
     </body>
+
 </html>
